@@ -1,7 +1,7 @@
 # Checksum File Verifier
 **Checksum File Verifier** is a Python-based GUI tool that lets users verify file checksums with emotional feedback and sounds! Whether the file matches or not, **Checksum File Verifier** responds with an animated face and playful sound effects to bring your file verification process to life.
 
-#### Features 
+### Features 
 **1. Supports Multiple Hash Algorithms:** `blake2b`, `blake2s`, `md5`, `sha1`, `sha224`, `sha256`, `sha384`, `sha3_224`, `sha3_256`, `sha3_384`, `sha3_512`, `sha512`, `shake_128`, `shake_256`
 **2. File Selection:** Browse and select files through the UI.
 **3. Audio Feedback:** Hear sounds for success or failure based on hash match.
@@ -31,19 +31,19 @@ bash
 pyhton ChesksumChecker.py
 ```
 
-#### Usage
+### Usage
 1. Select file.
 2. Enter the expected checksum.
 3. Choose a hash algorithm from the dropdown.
 4. Clik **Verify with Hashy** to se the results.
 
-#### Notes
+### Notes
 - Make sure your sounds and images are in the correct format and paths.
 
 <img src="imgs/form.png" 
 alt="image field">
 
-#### License 
+### License 
 MIT License © 2025
 Made with 💙 by:
 -  Jansen E. Baloaloa
@@ -53,7 +53,7 @@ Made with 💙 by:
 -  Seah G. Ubado
 - Audray Mae B. Valdez
 
-#### Acknowledgements
+### Acknowledgements
 - tkinter for the GUI
 - Pillow for thr image processing
 - pygame for the sound effects 
